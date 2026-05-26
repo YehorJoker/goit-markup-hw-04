@@ -9,7 +9,7 @@
 /* Главный Flexbox-контейнер, который выстроит блоки в ряд */
 .footer-container {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     /* Выравнивает блоки по базовой линии текста */
 }
 
@@ -56,4 +56,7 @@
 .footer-social-link:hover,
 .footer-social-link:focus {
     background-color: #31d0aa;
+}
+.footer .social-list {
+    gap: 16px;
 }
